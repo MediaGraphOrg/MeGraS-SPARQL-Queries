@@ -1,0 +1,9 @@
+PREFIX implicit: <http://megras.org/implicit/>
+
+# K is any integer number: e.g., implicit:clip11nn
+# PREDICATE is any derived predicate: e.g., clipEmbedding
+
+SELECT *
+WHERE {
+  <URI> <http://megras.org/implicit/Knn/PREDICATE> ?o .
+}
